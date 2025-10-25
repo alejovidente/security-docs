@@ -1,5 +1,6 @@
 [[suspicious-microsoft-365-mail-access-by-unusual-clientappid]]
 === Suspicious Microsoft 365 Mail Access by Unusual ClientAppId
+464040 Changed
 
 Identifies suspicious Microsoft 365 mail access by ClientAppId. This rule detects when a user accesses their mailbox using a client application that is not typically used by the user, which may indicate potential compromise or unauthorized access attempts. Adversaries may use custom or third-party applications to access mailboxes, bypassing standard security controls. First-party Microsoft applications are also abused after OAuth tokens are compromised, allowing adversaries to access mailboxes without raising suspicion.
 
